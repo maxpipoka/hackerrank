@@ -67,8 +67,10 @@ def gradingStudents(grades):
     count_grades = grades[0]
     grades_rounded = []
     multiplos5 = []
-    for i in range(20):
-        
+    
+    x = 0
+    for x in range(20):
+        multiplos5.append(5 * x)
 
     i = 0
     while i != (count_grades + 1):
